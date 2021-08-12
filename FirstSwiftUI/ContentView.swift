@@ -405,7 +405,7 @@ var body: some View {
     }
 */
     
-/* stepper
+
     @State var age = 22
     var body: some View {
         VStack {
@@ -413,19 +413,7 @@ var body: some View {
             Text("Your age is \(age)")
         }
     }
- */
-    
-    var body: some View {
-        NavigationView() {
-            NavigationLink(
-                destination: ContentViewTwo(),
-                label: {
-                    Text("넘어간다")
-                }).navigationBarTitle("움직여봐")
-        }
-    }
-    
-    
+ 
     
     
     
